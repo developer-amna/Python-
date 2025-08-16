@@ -1,0 +1,91 @@
+#Input
+
+name=input("Enter your name: ")
+print("Hello "+ name + "!")
+
+#Output:
+Enter your name: Amna
+Hello Amna!
+
+#IF we need to take input as a different type, we can use typecasting.
+#Taking input as integer
+
+age=int(input("Enter your age: "))
+print("You are "+ str(age)+ " years old.")
+
+#Output:
+#Enter your age: 20
+#You are 20 years old.
+
+#Example
+
+a=input("Enter the value1:-")
+b=input("Enter the value2:-")
+print(a+b)
+
+#Output:
+#Enter the value1:-10
+#Enter the value2:20
+#1020
+
+#Output
+
+#For output we can use the print function.
+
+print("Hello World!") 
+
+#Output: Hello World!
+#We can also use formatted strings for better readability.
+
+name="Amna"
+age=20
+print("My name is",  {name}, " and I am" ,{age} ,"years old.")
+
+#Output:
+# My name is Amna  and I am 20 years old.
+
+#Typecasting
+#Typecasting is the process of converting one data type to another.
+# In Python, we can use functions like int(), float(), str() to convert between types.
+#int(): converts a value to an integer.
+#float(): converts a value to a float.
+#str(): converts a value to a string.
+#bool(): converts a value to a boolean.
+
+num_str="123"
+num_int=int(num_str)
+print(num_int + 1)
+
+#Output:
+# 124
+
+#Example of typecasting with float
+
+a=float(input("Enter the value1:-"))
+b=float(input("Enter the value2:-"))
+print(a+b)
+
+#Output:
+
+#Enter the value1:-10.5
+#Enter the value2:20.5
+#31.0
+
+#Comments
+
+#Comments are used to explain the code and make it more readable.
+# In Python, comments start with a # symbol and continue to the end of the line.
+# They are ignored by the Python interpreter.
+# Example of a comment
+#Single line comment
+
+# This is a single line comment
+print("Hello, World!")  # This is an inline comment
+
+#Multi-line comment
+
+" " "  This is a multi-line comment.
+It can span multiple lines.
+" " "
+
+print("Hello, World!")  # This is another inline comment
