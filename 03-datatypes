@@ -1,0 +1,91 @@
+# Integers
+
+a=5
+print(a, "is of type ",type(a))
+#Output:
+# 5 is of type  <class 'int'>
+
+# Float
+
+a=2.0
+print(a, "is of type ",type(a))
+
+#Output:
+# 2.0 is of type  <class 'float'>
+
+#Complex
+
+a=1+2j
+print(a, "is of type ",type(a))
+
+#Output:
+# (1+2j) is of type  <class 'complex'>
+
+#String
+#A string is a sequence of characters enclosed in quotes.
+# Strings can be enclosed in single quotes, double quotes, or triple quotes.
+#Multi-line strings can be created using triple quotes.
+
+a="AMNA"
+print(a, "is of type ",type(a))
+
+#Output:
+# AMNA is of type  <class 'str'>
+# 'AMNA' is the same as "AMNA"
+
+# Example of multi-line string
+s="A multi-line string"
+print(s)
+
+#Output:
+# A multi-line string
+
+#Example of string with single quotes
+
+s='This is a string'
+print(s)
+
+#Output:
+# This is a string
+
+#List
+#A list is a collection of items that can be of different types.
+# Lists are mutable, meaning you can change their content.
+
+a=[1, 2.0, "AMNA"]
+print(a, "is of type ",type(a))
+
+#Output:
+# [1, 2.0, 'AMNA'] is of type  <class 'list'>
+
+# Tuple
+# A tuple is similar to a list, but it is immutable, meaning you cannot change its content after creation.
+
+a=(1, 2.0, "AMNA")
+print(a, "is of type ",type(a))
+
+#Output:
+# (1, 2.0, 'AMNA') is of type  <class 'tuple'>
+
+# Dictionary
+# A dictionary is a collection of key-value pairs. It is unordered and mutable.
+
+d={1:'Value','key':2}
+print(type(d))
+
+#Output:
+# <class 'dict'>
+
+# Set
+
+
+#A set is a collection of unique items. It is unordered and mutable.
+
+my_set={1,2,3}
+print(my_set)
+print(type(a))
+
+#Output:
+
+# {1, 2, 3}
+# <class 'set'>
